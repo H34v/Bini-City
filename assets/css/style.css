@@ -1,15 +1,15 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #121212;
     color: #ffffff;
     text-align: center;
     margin: 0;
     padding: 0;
 
-    background-image: url('images/beni.png'); /* ito yung tamang path mo */
+    /* ✅ Fullscreen Background */
+    background-image: url('assets/css/images/logo.png'); /* adjust the file path & filename as needed */
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-    background-position: center center;
     background-attachment: fixed;
 }
 
@@ -27,6 +27,7 @@ header {
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s;
+    font-size: 1.1rem;
 }
 
 .join-btn:hover, .discord-btn:hover {
@@ -35,10 +36,11 @@ header {
 
 section {
     padding: 2rem;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
     margin: 1rem auto;
     border-radius: 8px;
-    max-width: 800px;
+    max-width: 900px;
+    font-size: 1.1rem;
 }
 
 footer {
