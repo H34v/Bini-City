@@ -4,25 +4,25 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
-    
-    /* ✔️ Background Image Setup */
-    background-image: url('images/Beni.png'); 
+
+    background-image: url('images/Beni.png'); /* adjust mo sa tamang path */
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
-    /* ✔️ Backup Color (kung hindi mag-load yung image) */
-    background-color: #121212;
 }
 
-/* Para hindi ka maging transparent lahat: */
+/* Removed background color for transparency */
 header, section, footer {
-    background-color: rgba(0, 0, 0, 0.7);
     padding: 2rem;
     margin: 1rem auto;
-    border-radius: 8px;
     max-width: 900px;
+    background-color: transparent; /* fully transparent */
+}
+
+/* Para mas maganda basahin, dagdagan ng text shadow */
+header h1, section h2, p, footer p {
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7); /* dark shadow para lumitaw sa light parts ng background */
 }
 
 .join-btn, .discord-btn {
@@ -38,12 +38,4 @@ header, section, footer {
 
 .join-btn:hover, .discord-btn:hover {
     background-color: #00cc82;
-}
-
-section {
-    font-size: 1.1rem;
-}
-
-footer {
-    margin-top: 2rem;
 }
