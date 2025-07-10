@@ -6,7 +6,7 @@ body {
     padding: 0;
 
     /* ✅ Fullscreen Background */
-    background-image: url('assets/css/images/logo.png'); /* adjust the file path & filename as needed */
+    background-image: url('assets/css/images/beni.png'); /* adjust the file path & filename as needed */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
